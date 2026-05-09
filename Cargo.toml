@@ -1,0 +1,22 @@
+[package]
+name = "prom_multi_proc"
+version = "0.1.0"
+edition = "2024"
+description = "Prometheus metrics client for multi-process applications using Unix socket communication"
+license = "MIT"
+repository = "https://github.com/atongen/prom_multi_proc_rs"
+keywords = ["prometheus", "metrics", "multiprocess"]
+categories = ["observability"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+thiserror = "2"
+log = "0.4"
+
+[dev-dependencies]
+tempfile = "3"
+
+[[example]]
+name = "basic"
+path = "examples/basic.rs"
