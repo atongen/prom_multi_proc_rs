@@ -6,7 +6,7 @@ description = "Prometheus metrics client for multi-process applications using Un
 license = "MIT"
 repository = "https://github.com/atongen/prom_multi_proc_rs"
 keywords = ["prometheus", "metrics", "multiprocess"]
-categories = ["observability"]
+categories = ["development-tools", "network-programming"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
