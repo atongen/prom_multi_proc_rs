@@ -10,7 +10,7 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-prom_multi_proc = { git = "https://github.com/atongen/prom_multi_proc_rs" }
+prom_multi_proc = "0.1.0"
 ```
 
 ## General Usage
